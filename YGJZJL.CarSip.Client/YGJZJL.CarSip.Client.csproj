@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4CAFA24-0489-4794-AD13-06B8A1754F9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YGJZJL.CarSip.Client</RootNamespace>
+    <AssemblyName>YGJZJL.CarSip.Client</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.ET, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Interop.ET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="SDK_Com, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\SDK_Com.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adapter\FileChangeAdapter.cs" />
+    <Compile Include="adapter\WeightSerialPortAdapter.cs" />
+    <Compile Include="App\BtPoint.cs" />
+    <Compile Include="App\CardData.cs" />
+    <Compile Include="App\Code128.cs" />
+    <Compile Include="App\CoreApp.cs" />
+    <Compile Include="App\CorePrinter.cs" />
+    <Compile Include="App\HgIcCard.cs" />
+    <Compile Include="App\HgIoLogik.cs" />
+    <Compile Include="App\HgLable.cs" />
+    <Compile Include="App\HgLcd.cs" />
+    <Compile Include="App\HgRtu.cs" />
+    <Compile Include="App\IApplication.cs" />
+    <Compile Include="App\RegistIcCard.cs" />
+    <Compile Include="Meas\BTDevice.cs" />
+    <Compile Include="Meas\CarWeight.cs" />
+    <Compile Include="Meas\CoreCabinet.cs" />
+    <Compile Include="Meas\CoreDevice.cs" />
+    <Compile Include="Meas\CoreIoLogik.cs" />
+    <Compile Include="Meas\CoreRtu.cs" />
+    <Compile Include="Meas\CoreSieralPort.cs" />
+    <Compile Include="Meas\CoreWeight.cs" />
+    <Compile Include="Meas\ExcelPrinter.cs" />
+    <Compile Include="Meas\HCNetSDK.cs" />
+    <Compile Include="Meas\HkClient.cs" />
+    <Compile Include="Meas\HkDvr.cs" />
+    <Compile Include="Meas\IcCard.cs" />
+    <Compile Include="Meas\IDevice.cs" />
+    <Compile Include="Meas\IDvr.cs" />
+    <Compile Include="Meas\LablePrinter.cs" />
+    <Compile Include="Meas\LCDScreen.cs" />
+    <Compile Include="Meas\LedScreen.cs" />
+    <Compile Include="Meas\LedSDk.cs" />
+    <Compile Include="Meas\MwRfSDK.cs" />
+    <Compile Include="Meas\MXIO_NET.cs" />
+    <Compile Include="Meas\NPort.cs" />
+    <Compile Include="Meas\ZplPrinter.cs" />
+    <Compile Include="printer\CheckExcelInstalled.cs" />
+    <Compile Include="printer\ColdCoilLable.cs" />
+    <Compile Include="printer\ExcelPrinter.cs" />
+    <Compile Include="printer\PageSetup.cs" />
+    <Compile Include="printer\PictureInfo.cs" />
+    <Compile Include="printer\PrinterBase.cs" />
+    <Compile Include="printer\XLSPrinter.cs" />
+    <Compile Include="printer\ZebraPrinter.cs" />
+    <Compile Include="printer\ZPL2Command.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Test\FrmDvr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmDvr.designer.cs">
+      <DependentUpon>FrmDvr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmExcelPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmExcelPrinter.designer.cs">
+      <DependentUpon>FrmExcelPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmIcCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmIcCard.designer.cs">
+      <DependentUpon>FrmIcCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmIoLogic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmIoLogic.designer.cs">
+      <DependentUpon>FrmIoLogic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmLCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmLCD.designer.cs">
+      <DependentUpon>FrmLCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmLED.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmLED.designer.cs">
+      <DependentUpon>FrmLED.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmPrinter.Designer.cs">
+      <DependentUpon>FrmPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmRTU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmRTU.designer.cs">
+      <DependentUpon>FrmRTU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmWeight.Designer.cs">
+      <DependentUpon>FrmWeight.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Test\FrmDvr.resx">
+      <DependentUpon>FrmDvr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmExcelPrinter.resx">
+      <DependentUpon>FrmExcelPrinter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmIcCard.resx">
+      <DependentUpon>FrmIcCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmIoLogic.resx">
+      <DependentUpon>FrmIoLogic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmLCD.resx">
+      <DependentUpon>FrmLCD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmLED.resx">
+      <DependentUpon>FrmLED.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmPrinter.resx">
+      <DependentUpon>FrmPrinter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmRTU.resx">
+      <DependentUpon>FrmRTU.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmWeight.resx">
+      <DependentUpon>FrmWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

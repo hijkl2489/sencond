@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3A8B107-8DBF-4A26-847D-DD0B7312D3C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HGJZJL.BaseDataManage</RootNamespace>
+    <AssemblyName>YGJZJL.BaseDataManage</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Core.Sip.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CoreBpmUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreBpmUtility.DLL</HintPath>
+    </Reference>
+    <Reference Include="CoreFS.CA06, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreFS.CA06.DLL</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Excel.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Infragistics2.Excel.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Shared.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.Misc.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.UltraWinDock.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.UltraWinEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.UltraWinGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.UltraWinTabControl.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.UltraWinToolbars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\output\Infragistics2.Win.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YGJZJL.PublicComponent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.PublicComponent.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseManger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseManger.Designer.cs">
+      <DependentUpon>BaseManger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePaper.Designer.cs">
+      <DependentUpon>ChangePaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompareBalanceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareBalanceInfo.Designer.cs">
+      <DependentUpon>CompareBalanceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompareBalanceInfo11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareBalanceInfo11.Designer.cs">
+      <DependentUpon>CompareBalanceInfo11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetBaseInfo.Designer.cs">
+      <DependentUpon>GetBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HookInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HookInfo.Designer.cs">
+      <DependentUpon>HookInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaintenanceCorrentPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaintenanceCorrentPoint.Designer.cs">
+      <DependentUpon>MaintenanceCorrentPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointBaseInfo.Designer.cs">
+      <DependentUpon>PointBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PondTypeBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PondTypeBaseInfo.Designer.cs">
+      <DependentUpon>PondTypeBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrinterBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrinterBaseInfo.Designer.cs">
+      <DependentUpon>PrinterBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettleMentManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettleMentManager.designer.cs">
+      <DependentUpon>SettleMentManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShiftBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShiftBaseInfo.Designer.cs">
+      <DependentUpon>ShiftBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo.designer.cs">
+      <DependentUpon>StandardInfo.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseManger.resx">
+      <DependentUpon>BaseManger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePaper.resx">
+      <DependentUpon>ChangePaper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareBalanceInfo.resx">
+      <DependentUpon>CompareBalanceInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareBalanceInfo11.resx">
+      <DependentUpon>CompareBalanceInfo11.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HookInfo.resx">
+      <DependentUpon>HookInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaintenanceCorrentPoint.resx">
+      <DependentUpon>MaintenanceCorrentPoint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointBaseInfo.resx">
+      <DependentUpon>PointBaseInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PondTypeBaseInfo.resx">
+      <DependentUpon>PondTypeBaseInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrinterBaseInfo.resx">
+      <DependentUpon>PrinterBaseInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="SettleMentManager.resx">
+      <DependentUpon>SettleMentManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShiftBaseInfo.resx">
+      <DependentUpon>ShiftBaseInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo.resx">
+      <DependentUpon>StandardInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

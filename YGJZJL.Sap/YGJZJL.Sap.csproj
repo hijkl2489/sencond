@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B7D3179-12F8-4F6F-A7ED-AA1358682D83}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YGJZJL.Sap</RootNamespace>
+    <AssemblyName>YGJZJL.Sap</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreBpmUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreBpmUtility.DLL</HintPath>
+    </Reference>
+    <Reference Include="CoreFS.CA06, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreFS.CA06.DLL</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=1.3.0.0, Culture=neutral">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Excel.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Excel.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Shared.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.Misc.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinDataSource.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinDock.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListBar.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinListBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinListView.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinStatusBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinTabControl.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinToolbars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinTree.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="SDK_Com, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\SDK_Com.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YGJZJL.DepotMngr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.DepotMngr.dll</HintPath>
+    </Reference>
+    <Reference Include="YGJZJL.PublicComponent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\YGJZJL.PublicComponent\obj\Debug\YGJZJL.PublicComponent.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BcSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BcSap.designer.cs">
+      <DependentUpon>BcSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BcSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BcSapCx.designer.cs">
+      <DependentUpon>BcSapCx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BcSapFl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BcSapFl.designer.cs">
+      <DependentUpon>BcSapFl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarGpSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarGpSap.designer.cs">
+      <DependentUpon>CarGpSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarGpSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarGpSapCx.designer.cs">
+      <DependentUpon>CarGpSapCx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlSapCx.designer.cs">
+      <DependentUpon>FlSapCx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GpSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GpSap.designer.cs">
+      <DependentUpon>GpSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GpSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GpSapCx.designer.cs">
+      <DependentUpon>GpSapCx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GxfpSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GxfpSap.designer.cs">
+      <DependentUpon>GxfpSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GxfpSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GxfpSapCx.designer.cs">
+      <DependentUpon>GxfpSapCx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GxSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GxSap.designer.cs">
+      <DependentUpon>GxSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GxSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GxSapCx.designer.cs">
+      <DependentUpon>GxSapCx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GxSapFl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GxSapFl.designer.cs">
+      <DependentUpon>GxSapFl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RzjSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RzjSap.designer.cs">
+      <DependentUpon>RzjSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SapClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpSap.Designer.cs">
+      <DependentUpon>UpSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZkdSapFl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkdSapFl.designer.cs">
+      <DependentUpon>ZkdSapFl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZkdSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkdSap.designer.cs">
+      <DependentUpon>ZkdSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZkdSapCx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkdSapCx.designer.cs">
+      <DependentUpon>ZkdSapCx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BcSap.resx">
+      <DependentUpon>BcSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BcSapCx.resx">
+      <DependentUpon>BcSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BcSapFl.resx">
+      <DependentUpon>BcSapFl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarGpSap.resx">
+      <DependentUpon>CarGpSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarGpSapCx.resx">
+      <DependentUpon>CarGpSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlSapCx.resx">
+      <DependentUpon>FlSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GpSap.resx">
+      <DependentUpon>GpSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GpSapCx.resx">
+      <DependentUpon>GpSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxfpSap.resx">
+      <DependentUpon>GxfpSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxfpSapCx.resx">
+      <DependentUpon>GxfpSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxSap.resx">
+      <DependentUpon>GxSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxSapCx.resx">
+      <DependentUpon>GxSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GxSapFl.resx">
+      <DependentUpon>GxSapFl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RzjSap.resx">
+      <DependentUpon>RzjSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SapClass.resx">
+      <DependentUpon>SapClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpSap.resx">
+      <DependentUpon>UpSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkdSapFl.resx">
+      <DependentUpon>ZkdSapFl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkdSap.resx">
+      <DependentUpon>ZkdSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkdSapCx.resx">
+      <DependentUpon>ZkdSapCx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

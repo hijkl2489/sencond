@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B1910BD-61BE-447C-882C-6972698E5422}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YGJZJL.Car</RootNamespace>
+    <AssemblyName>YGJZJL.Car</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreBpmRes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreBpmRes.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreBpmUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreBpmUtility.DLL</HintPath>
+    </Reference>
+    <Reference Include="CoreControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreFS.CA06, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreFS.CA06.DLL</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=1.3.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Excel.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Excel.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Shared.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.AppStylistSupport.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.AppStylistSupport.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.Misc.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.SupportDialogs.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.SupportDialogs.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraChart.v9.2.Design, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraChart.v9.2.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinCalcManager.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinCalcManager.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinCalcManager.v9.2.FormulaBuilder, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinCalcManager.v9.2.FormulaBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinChart.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinDataSource.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinDock.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinExplorerBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGauge.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinGauge.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListBar.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinListBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinListView.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinMaskedEdit.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinMaskedEdit.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinPrintPreviewDialog.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinSchedule.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinStatusBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinTabbedMdi.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinTabControl.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinToolbars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinTree.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="INI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\INI.dll</HintPath>
+    </Reference>
+    <Reference Include="LedControl, Version=1.0.3460.21075, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\LedControl.dll</HintPath>
+    </Reference>
+    <Reference Include="PrintSolution, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\PrintSolution.dll</HintPath>
+    </Reference>
+    <Reference Include="SDK_Com, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\SDK_Com.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YGJZJL.CarSip.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.CarSip.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="YGJZJL.PublicComponent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.PublicComponent.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseData.cs" />
+    <Compile Include="CarEnterFactory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarEnterFactory.Designer.cs">
+      <DependentUpon>CarEnterFactory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarEnterFactoryQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarEnterFactoryQuery.Designer.cs">
+      <DependentUpon>CarEnterFactoryQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarNumericSeries.cs" />
+    <Compile Include="CarWeigh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarWeigh.designer.cs">
+      <DependentUpon>CarWeigh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarWeightDataManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarWeightLogQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarWeightLogQuery.designer.cs">
+      <DependentUpon>CarWeightLogQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code128.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoolSerial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoreIndicator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CoreIndicator.designer.cs">
+      <DependentUpon>CoreIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoreInfraredRay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CoreInfraredRay.Designer.cs">
+      <DependentUpon>CoreInfraredRay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataMamage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntranceGuard\EntryFactory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntranceGuard\EntryFactory.Designer.cs">
+      <DependentUpon>EntryFactory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandRecordFirstWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandRecordFirstWeight.designer.cs">
+      <DependentUpon>HandRecordFirstWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandRecordSecondWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandRecordSecondWeight.designer.cs">
+      <DependentUpon>HandRecordSecondWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandRecordTermTare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandRecordTermTare.designer.cs">
+      <DependentUpon>HandRecordTermTare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandRecordWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HandRecordWeight.designer.cs">
+      <DependentUpon>HandRecordWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs" />
+    <Compile Include="MeasureDataOneQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeasureDataOneQuery.designer.cs">
+      <DependentUpon>MeasureDataOneQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasureDataQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeasureDataQuery.designer.cs">
+      <DependentUpon>MeasureDataQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasureKouZhaNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeasureKouZhaNew.designer.cs">
+      <DependentUpon>MeasureKouZhaNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MeterControl.Designer.cs">
+      <DependentUpon>MeterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyUnLoadMemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyUnLoadMemo.designer.cs">
+      <DependentUpon>ModifyUnLoadMemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoreBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoreBaseInfo.designer.cs">
+      <DependentUpon>MoreBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointState.Designer.cs">
+      <DependentUpon>PointState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredictInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredictInfo.designer.cs">
+      <DependentUpon>PredictInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredictInfoAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredictInfoAdmin.Designer.cs">
+      <DependentUpon>PredictInfoAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickPlanInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickPlanInfo.designer.cs">
+      <DependentUpon>QuickPlanInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs" />
+    <Compile Include="RtuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RtuControl.designer.cs">
+      <DependentUpon>RtuControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateFirstWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateFirstWeight.designer.cs">
+      <DependentUpon>UpdateFirstWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSecondWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSecondWeight.designer.cs">
+      <DependentUpon>UpdateSecondWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeighEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WeighEditorControl.designer.cs">
+      <DependentUpon>WeighEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeighPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CarEnterFactory.resx">
+      <DependentUpon>CarEnterFactory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarEnterFactoryQuery.resx">
+      <DependentUpon>CarEnterFactoryQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarWeigh.resx">
+      <DependentUpon>CarWeigh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarWeightLogQuery.resx">
+      <DependentUpon>CarWeightLogQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntranceGuard\EntryFactory.resx">
+      <DependentUpon>EntryFactory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandRecordFirstWeight.resx">
+      <DependentUpon>HandRecordFirstWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandRecordSecondWeight.resx">
+      <DependentUpon>HandRecordSecondWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandRecordTermTare.resx">
+      <DependentUpon>HandRecordTermTare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HandRecordWeight.resx">
+      <DependentUpon>HandRecordWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeasureDataOneQuery.resx">
+      <DependentUpon>MeasureDataOneQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeasureDataQuery.resx">
+      <DependentUpon>MeasureDataQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeasureKouZhaNew.resx">
+      <DependentUpon>MeasureKouZhaNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeterControl.resx">
+      <DependentUpon>MeterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyUnLoadMemo.resx">
+      <DependentUpon>ModifyUnLoadMemo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreBaseInfo.resx">
+      <DependentUpon>MoreBaseInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointState.resx">
+      <DependentUpon>PointState.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredictInfo.resx">
+      <DependentUpon>PredictInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredictInfoAdmin.resx">
+      <DependentUpon>PredictInfoAdmin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="QuickPlanInfo.resx">
+      <DependentUpon>QuickPlanInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RtuControl.resx">
+      <DependentUpon>RtuControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateFirstWeight.resx">
+      <DependentUpon>UpdateFirstWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSecondWeight.resx">
+      <DependentUpon>UpdateSecondWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeighEditorControl.resx">
+      <DependentUpon>WeighEditorControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\refresh.png" />
+    <Content Include="Resources\ring1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

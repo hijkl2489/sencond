@@ -1,0 +1,17 @@
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\ResolveAssemblyReference.cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Interop.ACTIVEVIDEOLib.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\AxInterop.ACTIVEVIDEOLib.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.csproj.ResolveComReference.cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.DataFill.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.DataManage.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.DataModify.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.DataQuery.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.IronCheck.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.WeightMatch.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.csproj.GenerateResource.Cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.dll.licenses
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.DataRenew.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\Output\Core.Mcms.DynamicTrack.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\Output\Core.Mcms.DynamicTrack.pdb
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\Core.Mcms.DynamicTrack\obj\Debug\Core.Mcms.DynamicTrack.pdb

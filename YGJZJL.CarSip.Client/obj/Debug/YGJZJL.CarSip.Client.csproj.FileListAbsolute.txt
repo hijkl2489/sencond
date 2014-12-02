@@ -1,0 +1,15 @@
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.CarSip.Client.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.CarSip.Client.pdb
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmDvr.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmExcelPrinter.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmIcCard.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmIoLogic.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmLCD.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmLED.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmPrinter.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmRtu.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.Test.FrmWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.csproj.GenerateResource.Cache
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.dll
+D:\Client\YGJZJL.Client\YGJZJL.CarSip.Client\obj\Debug\YGJZJL.CarSip.Client.pdb

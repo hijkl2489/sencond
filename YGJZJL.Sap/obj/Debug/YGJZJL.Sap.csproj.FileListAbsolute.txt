@@ -1,0 +1,27 @@
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.Sap.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.Sap.pdb
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.BcSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.BcSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.BcSapFl.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.CarGpSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.CarGpSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.FlSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GpSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GpSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GxfpSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GxfpSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GxSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GxSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.GxSapFl.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.Properties.Resources.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.RzjSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.SapClass.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\Core.KgMcms.TrackWeigh.UpSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.ZkdSapFl.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.ZkdSap.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.ZkdSapCx.resources
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.csproj.GenerateResource.Cache
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.dll.licenses
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.dll
+D:\Client\YGJZJL.Client\YGJZJL.Sap\obj\Debug\YGJZJL.Sap.pdb

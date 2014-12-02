@@ -1,0 +1,13 @@
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.ChangeShift.resources
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.frmWeightQueryPipe.resources
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.Properties.Resources.resources
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.StorageQuery.resources
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.ucBilletFlowCard.resources
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.Weight_PIPE.resources
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.csproj.GenerateResource.Cache
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.dll.licenses
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.Pipe.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.Pipe.pdb
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.dll
+D:\Client\YGJZJL.Client\YGJZJL.Pipe\obj\Debug\YGJZJL.Pipe.pdb

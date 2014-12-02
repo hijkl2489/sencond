@@ -1,0 +1,11 @@
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.Properties.Resources.resources
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.SurfaceInspectionRecord.resources
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.SurfaceInspectionRecord_Query.resources
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.csproj.GenerateResource.Cache
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.SurfaceInspectionManager.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.SurfaceInspectionManager.pdb
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.dll
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.pdb
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.ZKD_SurfaceInspectionRecord.resources
+D:\Client\YGJZJL.Client\YGJZJL.SurfaceInspectionManager\obj\Debug\YGJZJL.SurfaceInspectionManager.dll.licenses

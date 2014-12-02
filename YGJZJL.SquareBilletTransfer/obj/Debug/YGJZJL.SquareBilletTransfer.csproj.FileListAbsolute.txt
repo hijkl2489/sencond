@@ -1,0 +1,33 @@
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\ResolveAssemblyReference.cache
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.MeasureDataQuery_GP.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.MoreBaseInfo.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.Properties.Resources.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.ReExamine.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.SteelWeightUpdate_BC.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.TechCardUpdateQueryFrm.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.WeightPlan_FP.resources
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.csproj.GenerateResource.Cache
+D:\YGJZJL客户端代码\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.dll.licenses
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.BilletInfo.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.BoardBilletWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.ChangeShift.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.frmWeightQueryBillet.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.MoreBaseInfo.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.Properties.Resources.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.ReExamine.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.ReExamineForBP.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.SteelWeightUpdate_BC.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.SteelWeightUpdate_ZKD.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.TechCardUpdateQueryFrm.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.ucBilletFlowCard.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.WeightPlan_BP.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.WeightPlan_FP.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.WeightPlan_FPForBC.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.csproj.GenerateResource.Cache
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.SquareBilletTransfer.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.SquareBilletTransfer.pdb
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.dll
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.pdb
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.SteelStoveNotUpdate_BC.resources
+D:\Client\YGJZJL.Client\YGJZJL.SquareBilletTransfer\obj\Debug\YGJZJL.SquareBilletTransfer.dll.licenses

@@ -1,0 +1,31 @@
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.Car.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.Car.pdb
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.CarEnterFactory.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.CarEnterFactoryQuery.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.CarWeigh.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.CarWeightLogQuery.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.EntranceGuard.EntryFactory.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.HandRecordFirstWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.HandRecordSecondWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.HandRecordTermTare.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.HandRecordWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.MeasureDataOneQuery.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.MeasureDataQuery.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.MeasureKouZhaNew.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.MeterControl.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.ModifyUnLoadMemo.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.MoreBaseInfo.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.PointState.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.PredictInfo.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.PredictInfoAdmin.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.QuickPlanInfo.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.Resource1.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.RtuControl.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.UpdateFirstWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.UpdateSecondWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.WeighEditorControl.resources
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.csproj.GenerateResource.Cache
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.dll.licenses
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.dll
+D:\Client\YGJZJL.Client\YGJZJL.Car\obj\Debug\YGJZJL.Car.pdb

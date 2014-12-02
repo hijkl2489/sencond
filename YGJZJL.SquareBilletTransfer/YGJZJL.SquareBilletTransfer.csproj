@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1A06FB8-B790-40EA-898E-71BD6196CAF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YGJZJL.SquareBilletTransfer</RootNamespace>
+    <AssemblyName>YGJZJL.SquareBilletTransfer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.ACTIVEVIDEOLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\AxInterop.ACTIVEVIDEOLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Sip.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Core.Sip.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreBpmRes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreBpmRes.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreBpmUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\CoreBpmUtility.DLL</HintPath>
+    </Reference>
+    <Reference Include="CoreFS.CA06, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Excel, Version=1.3.0.0, Culture=neutral">
+      <HintPath>..\..\Output\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Excel.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Infragistics2.Excel.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Shared.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.Misc.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\Infragistics2.Win.UltraWinDataSource.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinDock.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinGrid.ExcelExport.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinTabControl.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.UltraWinToolbars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v9.2, Version=9.2.20092.1003, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\Infragistics2.Win.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="INI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\INI.dll</HintPath>
+    </Reference>
+    <Reference Include="LedControl, Version=1.0.3460.21075, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\LedControl.dll</HintPath>
+    </Reference>
+    <Reference Include="SDK_Com, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YGJZJL.PublicComponent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.PublicComponent.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BilletInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BilletInfo.Designer.cs">
+      <DependentUpon>BilletInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoardBilletWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoardBilletWeight.Designer.cs">
+      <DependentUpon>BoardBilletWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeShift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeShift.Designer.cs">
+      <DependentUpon>ChangeShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWeightQueryBillet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWeightQueryBillet.designer.cs">
+      <DependentUpon>frmWeightQueryBillet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoreBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoreBaseInfo.designer.cs">
+      <DependentUpon>MoreBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoundRoom.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BilletInfo.resx">
+      <DependentUpon>BilletInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoardBilletWeight.resx">
+      <DependentUpon>BoardBilletWeight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeShift.resx">
+      <DependentUpon>ChangeShift.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeightQueryBillet.resx">
+      <DependentUpon>frmWeightQueryBillet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreBaseInfo.resx">
+      <DependentUpon>MoreBaseInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReExamine.resx">
+      <DependentUpon>ReExamine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReExamineForBP.resx">
+      <DependentUpon>ReExamineForBP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SteelStoveNotUpdate_BC.resx">
+      <DependentUpon>SteelStoveNotUpdate_BC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SteelWeightUpdate_BC.resx">
+      <DependentUpon>SteelWeightUpdate_BC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SteelWeightUpdate_ZKD.resx">
+      <DependentUpon>SteelWeightUpdate_ZKD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechCardUpdateQueryFrm.resx">
+      <DependentUpon>TechCardUpdateQueryFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBilletFlowCard.resx">
+      <DependentUpon>ucBilletFlowCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeightPlan_BP.resx">
+      <DependentUpon>WeightPlan_BP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeightPlan_FP.resx">
+      <DependentUpon>WeightPlan_FP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeightPlan_FPForBC.resx">
+      <DependentUpon>WeightPlan_FPForBC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\_sgbak\09.png.2010-05-02.10-38-47.2812" />
+    <None Include="Resources\_sgbak\09.png.2010-12-20.13-52-18.5156" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReExamine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReExamine.designer.cs">
+      <DependentUpon>ReExamine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReExamineForBP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReExamineForBP.designer.cs">
+      <DependentUpon>ReExamineForBP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlAdapter.cs" />
+    <Compile Include="SteelStoveNotUpdate_BC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SteelStoveNotUpdate_BC.designer.cs">
+      <DependentUpon>SteelStoveNotUpdate_BC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SteelWeightUpdate_BC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SteelWeightUpdate_BC.designer.cs">
+      <DependentUpon>SteelWeightUpdate_BC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SteelWeightUpdate_ZKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SteelWeightUpdate_ZKD.designer.cs">
+      <DependentUpon>SteelWeightUpdate_ZKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechCardUpdateQueryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechCardUpdateQueryFrm.designer.cs">
+      <DependentUpon>TechCardUpdateQueryFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBilletFlowCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBilletFlowCard.designer.cs">
+      <DependentUpon>ucBilletFlowCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeightPlan_BP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeightPlan_BP.designer.cs">
+      <DependentUpon>WeightPlan_BP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeightPlan_FP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeightPlan_FP.designer.cs">
+      <DependentUpon>WeightPlan_FP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeightPlan_FPForBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeightPlan_FPForBC.designer.cs">
+      <DependentUpon>WeightPlan_FPForBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XMLReportTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\09.png" />
+    <Content Include="Resources\6734967_103526311354_2 拷贝.jpg" />
+    <Content Include="Resources\导出.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\Output\HGJZJL.PublicComponent.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\Output\HGJZJL.PublicComponent.pdb
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\ResolveAssemblyReference.cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.BaseInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.GetBaseInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.MessageForm.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.UserProve.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.WaitingForm.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.csproj.GenerateResource.Cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.PublicComponent\obj\Debug\HGJZJL.PublicComponent.pdb

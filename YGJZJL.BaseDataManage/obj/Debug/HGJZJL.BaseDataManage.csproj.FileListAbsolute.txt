@@ -1,0 +1,17 @@
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\Output\HGJZJL.BaseDataManage.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\Output\HGJZJL.BaseDataManage.pdb
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\ResolveAssemblyReference.cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.BaseManger.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.CarRoleManage.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.CompareBalanceInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.CompareBalanceInfo11.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.HookInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.MaintenanceCorrentPoint.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.PointBaseInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.PondTypeBaseInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.PrinterBaseInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.ShiftBaseInfo.resources
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.csproj.GenerateResource.Cache
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.dll.licenses
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.dll
+E:\Harpor\昆钢电子信息\红玉钢集中计量\客户端程序\HGJZJL.Client\HGJZJL.BaseDataManage\obj\Debug\HGJZJL.BaseDataManage.pdb

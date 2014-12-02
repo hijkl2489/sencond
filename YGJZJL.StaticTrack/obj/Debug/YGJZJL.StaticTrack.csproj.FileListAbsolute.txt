@@ -1,0 +1,19 @@
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.StaticTrack.dll
+D:\我的文档\Visual Studio 2008\Projects\Output\YGJZJL.StaticTrack.pdb
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\ResolveAssemblyReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\Interop.RTXClient.dll
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\AxInterop.RTXClient.dll
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.csproj.ResolveComReference.cache
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.HanderFirstWeightData.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.HanderHistoryWeightData.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.MoreBaseInfo.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.QueryFirstWeightData.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.QueryHistoryWeightData.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.Properties.Resources.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.WeightPlan.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.TrackWeight.resources
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.csproj.GenerateResource.Cache
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.dll.licenses
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.dll
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.pdb
+D:\Client\YGJZJL.Client\YGJZJL.StaticTrack\obj\Debug\YGJZJL.StaticTrack.TrackWeightForIron.resources

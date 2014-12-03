@@ -15,7 +15,7 @@ namespace YGJZJL.Bar
 
         //数据表JL_POINTINFO字段映射
         private string m_POINTID;//计量点编码
-        private string m_POINTNAME;//计量点名称
+        private string m_POINTNAME;//
         private string m_POINTTYPE;//计量点称重类型
 
         private string m_VIEDOIP;//硬盘录像机IP

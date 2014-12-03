@@ -7,66 +7,66 @@ using SDK_Com;
 namespace YGJZJL.Bar
 {
     /// <summary>
-    /// ¼ÆÁ¿µãÀà£¬ÓÃÓÚ²Ù×÷¼ÆÁ¿µã
+    /// è®¡é‡ç‚¹ç±»ï¼Œç”¨äºæ“ä½œè®¡é‡ç‚¹
     /// </summary>
     public class ProductPoundRoom
     {
         #region private member variable
 
-        //Êı¾İ±íJL_POINTINFO×Ö¶ÎÓ³Éä
-        private string m_POINTID;//¼ÆÁ¿µã±àÂë
-        private string m_POINTNAME;//¼ÆÁ¿µãÃû³Æ
-        private string m_POINTTYPE;//¼ÆÁ¿µã³ÆÖØÀàĞÍ
+        //æ•°æ®è¡¨JL_POINTINFOå­—æ®µæ˜ å°„
+        private string m_POINTID;//333333333è®¡é‡ç‚¹ç¼–ç 
+        private string m_POINTNAME;//è®¡é‡ç‚¹åç§°
+        private string m_POINTTYPE;//è®¡é‡ç‚¹ç§°é‡ç±»å‹
 
-        private string m_VIEDOIP;//Ó²ÅÌÂ¼Ïñ»úIP
-        private string m_VIEDOPORT;//Ó²ÅÌÂ¼Ïñ»ú¶Ë¿Ú
-        private string m_VIEDOUSER;//Ó²ÅÌÂ¼Ïñ»úÓÃ»§Ãû
-        private string m_VIEDOPWD;//Ó²ÅÌÂ¼Ïñ»úÃÜÂë
+        private string m_VIEDOIP;//ç¡¬ç›˜å½•åƒæœºIP
+        private string m_VIEDOPORT;//ç¡¬ç›˜å½•åƒæœºç«¯å£
+        private string m_VIEDOUSER;//ç¡¬ç›˜å½•åƒæœºç”¨æˆ·å
+        private string m_VIEDOPWD;//ç¡¬ç›˜å½•åƒæœºå¯†ç 
 
-        private string m_MOXAIP;//MOXA¿¨IP
+        private string m_MOXAIP;//MOXAå¡IP
 
-        private string m_METERTYPE;//ÒÇ±íÀàĞÍ
-        private string m_METERPARA;//ÒÇ±í²ÎÊı
-        private string m_MOXAPORT;//¼ÆÁ¿ÒÇ±íMOXA¿¨¶Ë¿Ú        
+        private string m_METERTYPE;//ä»ªè¡¨ç±»å‹
+        private string m_METERPARA;//ä»ªè¡¨å‚æ•°
+        private string m_MOXAPORT;//è®¡é‡ä»ªè¡¨MOXAå¡ç«¯å£        
 
         private string m_RTUIP;//RTUIP
-        private string m_RTUPORT;//RTU¶Ë¿Ú
+        private string m_RTUPORT;//RTUç«¯å£
 
-        private string m_PRINTERIP;//´òÓ¡·şÎñÆ÷IP
-        private string m_PRINTERNAME;//´òÓ¡»úÃû³Æ
-        private string m_PRINTTYPECODE;//´òÓ¡»úÀàĞÍ´úÂë
-        private int m_USEDPAPER;//ÒÑÓÃÖ½ÕÅÁ¿
-        private int m_TOTALPAPAR;//´òÓ¡Ö½×ÜÊıÁ¿
-        private int m_USEDINK;//ÒÑÓÃÖ½ÕÅÁ¿
-        private int m_TOTALINK;//´òÓ¡Ö½×ÜÊıÁ¿
+        private string m_PRINTERIP;//æ‰“å°æœåŠ¡å™¨IP
+        private string m_PRINTERNAME;//æ‰“å°æœºåç§°
+        private string m_PRINTTYPECODE;//æ‰“å°æœºç±»å‹ä»£ç 
+        private int m_USEDPAPER;//å·²ç”¨çº¸å¼ é‡
+        private int m_TOTALPAPAR;//æ‰“å°çº¸æ€»æ•°é‡
+        private int m_USEDINK;//å·²ç”¨çº¸å¼ é‡
+        private int m_TOTALINK;//æ‰“å°çº¸æ€»æ•°é‡
 
-        private string m_STATUS;//¼ÆÁ¿µã×´Ì¬ IDLE-¿ÕÏĞ USE-ÕıÔÚ¼ÆÁ¿
-        private string m_ACCEPTTERMINAL;//½Ó¹ÜµÄÖÕ¶ËIP
+        private string m_STATUS;//è®¡é‡ç‚¹çŠ¶æ€ IDLE-ç©ºé—² USE-æ­£åœ¨è®¡é‡
+        private string m_ACCEPTTERMINAL;//æ¥ç®¡çš„ç»ˆç«¯IP
 
-        private string m_LEDPORT;//µç×ÓÆÁMOXA¿¨¶Ë¿Ú
-        private string m_LEDPARA;//µç×ÓÆÁMOXA¿¨²ÎÊı
-        private string m_LEDTYPE;//µç×ÓÆÁÀàĞÍ
+        private string m_LEDPORT;//ç”µå­å±MOXAå¡ç«¯å£
+        private string m_LEDPARA;//ç”µå­å±MOXAå¡å‚æ•°
+        private string m_LEDTYPE;//ç”µå­å±ç±»å‹
 
-        private string m_READERPORT;//¶Á¿¨Æ÷MOXA¿¨¶Ë¿Ú
-        private string m_READERPARA;//¶Á¿¨Æ÷MOXA¿¨²ÎÊı
-        private string m_READERTYPE;//¶Á¿¨Æ÷ÀàĞÍ
+        private string m_READERPORT;//è¯»å¡å™¨MOXAå¡ç«¯å£
+        private string m_READERPARA;//è¯»å¡å™¨MOXAå¡å‚æ•°
+        private string m_READERTYPE;//è¯»å¡å™¨ç±»å‹
 
-        private string m_DISPLAYPORT;//Òº¾§ÆÁMOXA¿¨¶Ë¿Ú
-        private string m_DISPLAYPARA;//Òº¾§ÆÁMOXA¿¨²ÎÊı
-        private string m_DISPLAYTYPE;//Òº¾§ÆÁÀàĞÍ
+        private string m_DISPLAYPORT;//æ¶²æ™¶å±MOXAå¡ç«¯å£
+        private string m_DISPLAYPARA;//æ¶²æ™¶å±MOXAå¡å‚æ•°
+        private string m_DISPLAYTYPE;//æ¶²æ™¶å±ç±»å‹
 
-        private decimal m_ZEROVALUE;//¸´Î»Öµ
+        private decimal m_ZEROVALUE;//å¤ä½å€¼
 
-        //Ê¹ÓÃºÎÖÖÉè±¸±êÖ¾
-        private bool m_bUseMeter;//²É¼¯ÒÇ±íÊı¾İ
-        private bool m_bUseLED;//Ê¹ÓÃLED
-        private bool m_bUseReader;//Ê¹ÓÃ¶Á¿¨Æ÷
-        private bool m_bUseDisplay;//Ê¹ÓÃÒº¾§ÆÁ
-        private bool m_bUseRtu;//Ê¹ÓÃRtu
+        //ä½¿ç”¨ä½•ç§è®¾å¤‡æ ‡å¿—
+        private bool m_bUseMeter;//é‡‡é›†ä»ªè¡¨æ•°æ®
+        private bool m_bUseLED;//ä½¿ç”¨LED
+        private bool m_bUseReader;//ä½¿ç”¨è¯»å¡å™¨
+        private bool m_bUseDisplay;//ä½¿ç”¨æ¶²æ™¶å±
+        private bool m_bUseRtu;//ä½¿ç”¨Rtu
 
         //MOXA
-        private CoolSerial m_CoolSerialForMeter;//ÒÇ±í
-        private CoolDisplay m_CoolDisplay;//Òº¾§ÆÁ
+        private CoolSerial m_CoolSerialForMeter;//ä»ªè¡¨
+        private CoolDisplay m_CoolDisplay;//æ¶²æ™¶å±
         //private CoolSerial m_CoolLed;//LED
         private CoolLed m_CoolLed;//LED
 
@@ -74,45 +74,45 @@ namespace YGJZJL.Bar
         private CoolRtu m_CoolRtu;//Rtu data collect
         private CoolRtu m_CoolRtuForCommand;//Rtu command send
 
-        //Ïß³Ì
-        private System.Threading.Thread m_hThread;//Ïß³Ì
-        private bool m_bRunning;//Ïß³ÌÔËĞĞ¿ª¹Ø
+        //çº¿ç¨‹
+        private System.Threading.Thread m_hThread;//çº¿ç¨‹
+        private bool m_bRunning;//çº¿ç¨‹è¿è¡Œå¼€å…³
 
-        //Êı¾İ
-        private string m_szMeterData;//ÒÇ±í²É¼¯Êı¾İ
-        private decimal m_MeterValue;//ÒÇ±íÖØÁ¿Êı¾İ
-        private decimal m_MeterPreData;//ÒÇ±íÇ°Ò»´ÎÖØÁ¿
-        private int m_nMeterStabTimes;//ÒÇ±íÎÈ¶¨´ÎÊı
+        //æ•°æ®
+        private string m_szMeterData;//ä»ªè¡¨é‡‡é›†æ•°æ®
+        private decimal m_MeterValue;//ä»ªè¡¨é‡é‡æ•°æ®
+        private decimal m_MeterPreData;//ä»ªè¡¨å‰ä¸€æ¬¡é‡é‡
+        private int m_nMeterStabTimes;//ä»ªè¡¨ç¨³å®šæ¬¡æ•°
 
-        private string m_szReaderGUID;//¶Á¿¨Æ÷È«ÇòÎ¨Ò»ºÅ
-        private string m_szReaderCardNo;//¶Á¿¨Æ÷¿¨ºÅ
+        private string m_szReaderGUID;//è¯»å¡å™¨å…¨çƒå”¯ä¸€å·
+        private string m_szReaderCardNo;//è¯»å¡å™¨å¡å·
         private byte[] m_szRtuData;//Rtu data
 
-        //ÅÉÎ»
-        private bool m_bDistributed;//ÊÇ·ñÅÉÎ»
+        //æ´¾ä½
+        private bool m_bDistributed;//æ˜¯å¦æ´¾ä½
 
         //sign
-        private bool m_bSigned;//½Ó¹Ü
+        private bool m_bSigned;//æ¥ç®¡
 
-        //±¾µØÉùÒôÌáÊ¾
-        private SoundPlayer m_SoundPlayer;//²¥·ÅÉùÒô
+        //æœ¬åœ°å£°éŸ³æç¤º
+        private SoundPlayer m_SoundPlayer;//æ’­æ”¾å£°éŸ³
 
-        //Ó²ÅÌÂ¼Ïñ»ú
-        private SDK_Com.HKDVR m_VideoRecord;//Ó²ÅÌÂ¼Ïñ»úÀà
-        private int m_VideoHandle;//Ó²ÅÌÂ¼Ïñ»ú¾ä±ú£¬SDK_Login»ñÈ¡ºó¸³Öµ
-        private int m_Channel1;//Í¨µÀ1¾ä±ú
-        private int m_Channel2;//Í¨µÀ2¾ä±ú
-        private int m_Channel3;//Í¨µÀ3¾ä±ú
-        private int m_Channel4;//Í¨µÀ4¾ä±ú
-        private int m_Channel5;//Í¨µÀ5¾ä±ú
-        private int m_Channel6;//Í¨µÀ6¾ä±ú
-        private bool m_bTalk;//ÊÇ·ñÕıÔÚ¶Ô½²
-        private int m_TalkID;//¶Ô½²¾ä±ú
-        private int m_AudioNum; //¿ÉÊ¹ÓÃÒôÆµÊı
+        //ç¡¬ç›˜å½•åƒæœº
+        private SDK_Com.HKDVR m_VideoRecord;//ç¡¬ç›˜å½•åƒæœºç±»
+        private int m_VideoHandle;//ç¡¬ç›˜å½•åƒæœºå¥æŸ„ï¼ŒSDK_Loginè·å–åèµ‹å€¼
+        private int m_Channel1;//é€šé“1å¥æŸ„
+        private int m_Channel2;//é€šé“2å¥æŸ„
+        private int m_Channel3;//é€šé“3å¥æŸ„
+        private int m_Channel4;//é€šé“4å¥æŸ„
+        private int m_Channel5;//é€šé“5å¥æŸ„
+        private int m_Channel6;//é€šé“6å¥æŸ„
+        private bool m_bTalk;//æ˜¯å¦æ­£åœ¨å¯¹è®²
+        private int m_TalkID;//å¯¹è®²å¥æŸ„
+        private int m_AudioNum; //å¯ä½¿ç”¨éŸ³é¢‘æ•°
 
-        //±£´æ±êÖ¾£¬Ö»ÔÊĞí±£´æÒ»´Î
+        //ä¿å­˜æ ‡å¿—ï¼Œåªå…è®¸ä¿å­˜ä¸€æ¬¡
         private bool m_bSaved;
-        //RTU×´Ì¬
+        //RTUçŠ¶æ€
         private bool m_PreState;
         private bool m_CurState;
 
@@ -123,90 +123,90 @@ namespace YGJZJL.Bar
 
         public ProductPoundRoom()
         {
-            m_POINTID = "";//¼ÆÁ¿µã±àÂë
-            m_POINTNAME = "";//¼ÆÁ¿µãÃû³Æ
-            m_POINTTYPE = "";//¼ÆÁ¿µã³ÆÖØÀàĞÍ
+            m_POINTID = "";//è®¡é‡ç‚¹ç¼–ç 
+            m_POINTNAME = "";//è®¡é‡ç‚¹åç§°
+            m_POINTTYPE = "";//è®¡é‡ç‚¹ç§°é‡ç±»å‹
 
-            m_VIEDOIP = "";//Ó²ÅÌÂ¼Ïñ»úIP
-            m_VIEDOPORT = "";//Ó²ÅÌÂ¼Ïñ»ú¶Ë¿Ú
-            m_VIEDOUSER = "";//Ó²ÅÌÂ¼Ïñ»úÓÃ»§Ãû
-            m_VIEDOPWD = "";//Ó²ÅÌÂ¼Ïñ»úÃÜÂë
+            m_VIEDOIP = "";//ç¡¬ç›˜å½•åƒæœºIP
+            m_VIEDOPORT = "";//ç¡¬ç›˜å½•åƒæœºç«¯å£
+            m_VIEDOUSER = "";//ç¡¬ç›˜å½•åƒæœºç”¨æˆ·å
+            m_VIEDOPWD = "";//ç¡¬ç›˜å½•åƒæœºå¯†ç 
 
-            m_MOXAIP = "";//MOXA¿¨IP
+            m_MOXAIP = "";//MOXAå¡IP
 
-            m_METERTYPE = "";//ÒÇ±íÀàĞÍ
-            m_METERPARA = "";//ÒÇ±í²ÎÊı
-            m_MOXAPORT = "";//¼ÆÁ¿ÒÇ±íMOXA¿¨¶Ë¿Ú
-            m_MeterPreData = 0;//ÒÇ±íÇ°Ò»´ÎÖØÁ¿
-            m_nMeterStabTimes = 0;//ÒÇ±íÎÈ¶¨´ÎÊı
+            m_METERTYPE = "";//ä»ªè¡¨ç±»å‹
+            m_METERPARA = "";//ä»ªè¡¨å‚æ•°
+            m_MOXAPORT = "";//è®¡é‡ä»ªè¡¨MOXAå¡ç«¯å£
+            m_MeterPreData = 0;//ä»ªè¡¨å‰ä¸€æ¬¡é‡é‡
+            m_nMeterStabTimes = 0;//ä»ªè¡¨ç¨³å®šæ¬¡æ•°
 
             m_RTUIP = "";//RTUIP
-            m_RTUPORT = "";//RTU¶Ë¿Ú
+            m_RTUPORT = "";//RTUç«¯å£
 
-            m_PRINTERIP = "";//´òÓ¡·şÎñÆ÷IP
-            m_PRINTERNAME = "";//´òÓ¡»úÃû³Æ
-            m_PRINTTYPECODE = "";//´òÓ¡»úÀàĞÍ´úÂë
-            m_USEDPAPER = 0;//ÒÑÓÃÖ½ÕÅÁ¿
-            m_TOTALPAPAR = 0;//´òÓ¡Ö½×ÜÊıÁ¿
-            m_STATUS = "";//¼ÆÁ¿µã×´Ì¬
-            m_ACCEPTTERMINAL = "";//½Ó¹ÜµÄÖÕ¶ËIP
+            m_PRINTERIP = "";//æ‰“å°æœåŠ¡å™¨IP
+            m_PRINTERNAME = "";//æ‰“å°æœºåç§°
+            m_PRINTTYPECODE = "";//æ‰“å°æœºç±»å‹ä»£ç 
+            m_USEDPAPER = 0;//å·²ç”¨çº¸å¼ é‡
+            m_TOTALPAPAR = 0;//æ‰“å°çº¸æ€»æ•°é‡
+            m_STATUS = "";//è®¡é‡ç‚¹çŠ¶æ€
+            m_ACCEPTTERMINAL = "";//æ¥ç®¡çš„ç»ˆç«¯IP
 
-            m_LEDPORT = "";//µç×ÓÆÁMOXA¿¨¶Ë¿Ú
-            m_LEDPARA = "";//µç×ÓÆÁMOXA¿¨²ÎÊı
-            m_LEDTYPE = "";//µç×ÓÆÁÀàĞÍ
+            m_LEDPORT = "";//ç”µå­å±MOXAå¡ç«¯å£
+            m_LEDPARA = "";//ç”µå­å±MOXAå¡å‚æ•°
+            m_LEDTYPE = "";//ç”µå­å±ç±»å‹
 
-            m_READERPORT = "";//¶Á¿¨Æ÷MOXA¿¨¶Ë¿Ú
-            m_READERPARA = "";//¶Á¿¨Æ÷MOXA¿¨²ÎÊı
-            m_READERTYPE = "";//¶Á¿¨Æ÷ÀàĞÍ
+            m_READERPORT = "";//è¯»å¡å™¨MOXAå¡ç«¯å£
+            m_READERPARA = "";//è¯»å¡å™¨MOXAå¡å‚æ•°
+            m_READERTYPE = "";//è¯»å¡å™¨ç±»å‹
 
-            m_DISPLAYPORT = "";//Òº¾§ÆÁMOXA¿¨¶Ë¿Ú
-            m_DISPLAYPARA = "";//Òº¾§ÆÁMOXA¿¨²ÎÊı
-            m_DISPLAYTYPE = "";//Òº¾§ÆÁÀàĞÍ
+            m_DISPLAYPORT = "";//æ¶²æ™¶å±MOXAå¡ç«¯å£
+            m_DISPLAYPARA = "";//æ¶²æ™¶å±MOXAå¡å‚æ•°
+            m_DISPLAYTYPE = "";//æ¶²æ™¶å±ç±»å‹
 
-            //Ê¹ÓÃºÎÖÖÉè±¸±êÖ¾
-            m_bUseMeter = false;//²É¼¯ÒÇ±íÊı¾İ
-            m_bUseLED = false;//Ê¹ÓÃLED
-            m_bUseReader = false;//Ê¹ÓÃ¶Á¿¨Æ÷
-            m_bUseDisplay = false;//Ê¹ÓÃÒº¾§ÆÁ
-            m_bUseRtu = false;//Ê¹ÓÃrtu
+            //ä½¿ç”¨ä½•ç§è®¾å¤‡æ ‡å¿—
+            m_bUseMeter = false;//é‡‡é›†ä»ªè¡¨æ•°æ®
+            m_bUseLED = false;//ä½¿ç”¨LED
+            m_bUseReader = false;//ä½¿ç”¨è¯»å¡å™¨
+            m_bUseDisplay = false;//ä½¿ç”¨æ¶²æ™¶å±
+            m_bUseRtu = false;//ä½¿ç”¨rtu
 
             //MOXA
-            m_CoolSerialForMeter = null;//ÒÇ±í
+            m_CoolSerialForMeter = null;//ä»ªè¡¨
             m_CoolLed = null;//LED
-            m_CoolDisplay = null;//Òº¾§ÆÁ
+            m_CoolDisplay = null;//æ¶²æ™¶å±
 
             //rtu
             m_CoolRtu = null;//rtu data collect
             m_CoolRtuForCommand = null;//rtu command send
 
-            //Ïß³Ì
-            m_hThread = null;//Ïß³Ì
-            m_bRunning = false;//Ïß³ÌÔËĞĞ¿ª¹Ø
+            //çº¿ç¨‹
+            m_hThread = null;//çº¿ç¨‹
+            m_bRunning = false;//çº¿ç¨‹è¿è¡Œå¼€å…³
 
-            //Êı¾İ
-            m_szMeterData = "";//ÒÇ±í²É¼¯Êı¾İ
-            m_szReaderGUID = "";//¶Á¿¨Æ÷È«ÇòÎ¨Ò»ºÅ
-            m_szReaderCardNo = "";//¶Á¿¨Æ÷¿¨ºÅ
+            //æ•°æ®
+            m_szMeterData = "";//ä»ªè¡¨é‡‡é›†æ•°æ®
+            m_szReaderGUID = "";//è¯»å¡å™¨å…¨çƒå”¯ä¸€å·
+            m_szReaderCardNo = "";//è¯»å¡å™¨å¡å·
             m_szRtuData = null;//rtu data
 
-            //½Ó¹Ü
+            //æ¥ç®¡
             m_bSigned = false;
 
-            //²¥·ÅÉùÒô
+            //æ’­æ”¾å£°éŸ³
             m_SoundPlayer = null;
 
-            //Ó²ÅÌÂ¼Ïñ»ú
+            //ç¡¬ç›˜å½•åƒæœº
             m_VideoRecord = null;
             m_VideoHandle = 0;
-            m_Channel1 = 0;//Í¨µÀ1¾ä±ú
-            m_Channel2 = 0;//Í¨µÀ2¾ä±ú
-            m_Channel3 = 0;//Í¨µÀ3¾ä±ú
-            m_Channel4 = 0;//Í¨µÀ4¾ä±ú
-            m_Channel5 = 0;//Í¨µÀ5¾ä±ú
-            m_Channel6 = 0;//Í¨µÀ6¾ä±ú
-            m_bTalk = false;//ÊÇ·ñÕıÔÚ¶Ô½²
-            m_TalkID = 0;//¶Ô½²¾ä±ú
-            m_AudioNum = 1; //¿ÉÊ¹ÓÃÒôÆµÊı
+            m_Channel1 = 0;//é€šé“1å¥æŸ„
+            m_Channel2 = 0;//é€šé“2å¥æŸ„
+            m_Channel3 = 0;//é€šé“3å¥æŸ„
+            m_Channel4 = 0;//é€šé“4å¥æŸ„
+            m_Channel5 = 0;//é€šé“5å¥æŸ„
+            m_Channel6 = 0;//é€šé“6å¥æŸ„
+            m_bTalk = false;//æ˜¯å¦æ­£åœ¨å¯¹è®²
+            m_TalkID = 0;//å¯¹è®²å¥æŸ„
+            m_AudioNum = 1; //å¯ä½¿ç”¨éŸ³é¢‘æ•°
 
             m_bSaved = false;
             m_PreState = false;
@@ -219,18 +219,18 @@ namespace YGJZJL.Bar
         #region methods
 
         /// <summary>
-        /// Æô¶¯ËùÓĞĞèÒªµÄÉè±¸Í¨Ñ¶Ïß³Ì
+        /// å¯åŠ¨æ‰€æœ‰éœ€è¦çš„è®¾å¤‡é€šè®¯çº¿ç¨‹
         /// </summary>
         public void StartUse()
         {
             try
             {
-                int i = 0;//´ò¿ª20´Î£¬ÓĞÊ±ÒÇ±íÒ»´Î»á´ò²»¿ª
+                int i = 0;//æ‰“å¼€20æ¬¡ï¼Œæœ‰æ—¶ä»ªè¡¨ä¸€æ¬¡ä¼šæ‰“ä¸å¼€
                 if (UseMeter)
                 {
                     i = 0;
                     m_CoolSerialForMeter = new CoolSerial(METERPARA);
-                    m_CoolSerialForMeter.DeviceType = METERTYPE;//ÒÇ±íÀàĞÍ£¬¾ö¶¨ÈçºÎ´¦ÀíÊÂÎñ
+                    m_CoolSerialForMeter.DeviceType = METERTYPE;//ä»ªè¡¨ç±»å‹ï¼Œå†³å®šå¦‚ä½•å¤„ç†äº‹åŠ¡
                     m_CoolSerialForMeter.DeviceName = POINTNAME;
 
                     while (m_CoolSerialForMeter.StateInfo != "open" && i < 20)
@@ -246,7 +246,7 @@ namespace YGJZJL.Bar
                 if (UseLED)
                 {
                     m_CoolLed = new CoolLed(LEDPARA);
-                    m_CoolLed.DeviceType = LEDTYPE;//LEDÀàĞÍ£¬¾ö¶¨ÈçºÎ´¦ÀíÊÂÎñ
+                    m_CoolLed.DeviceType = LEDTYPE;//LEDç±»å‹ï¼Œå†³å®šå¦‚ä½•å¤„ç†äº‹åŠ¡
                     m_CoolLed.DeviceName = POINTNAME;
                     if (m_CoolLed.Open())
                     {
@@ -257,7 +257,7 @@ namespace YGJZJL.Bar
                 if (UseDisplay)
                 {
                     m_CoolDisplay = new CoolDisplay(DISPLAYPARA);
-                    m_CoolDisplay.DeviceType = DISPLAYTYPE;//Òº¾§ÆÁÀàĞÍ£¬¾ö¶¨ÈçºÎ´¦ÀíÊÂÎñ
+                    m_CoolDisplay.DeviceType = DISPLAYTYPE;//æ¶²æ™¶å±ç±»å‹ï¼Œå†³å®šå¦‚ä½•å¤„ç†äº‹åŠ¡
                     m_CoolDisplay.DeviceName = POINTNAME;
                     m_CoolDisplay.Open();
                 }
@@ -304,7 +304,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Êı¾İ²É¼¯Ïß³Ì
+        /// æ•°æ®é‡‡é›†çº¿ç¨‹
         /// </summary>
         private void DataCollectThread()
         {
@@ -323,17 +323,17 @@ namespace YGJZJL.Bar
                         m_szRtuData = m_CoolRtu.GetData();
                     }
 
-                    System.Threading.Thread.Sleep(200);//Çë¸ù¾İĞèÒªµ÷ÕûÏß³ÌÔËĞĞÖÜÆÚ  ÉÏ´ÎÊÇ100ms
+                    System.Threading.Thread.Sleep(200);//è¯·æ ¹æ®éœ€è¦è°ƒæ•´çº¿ç¨‹è¿è¡Œå‘¨æœŸ  ä¸Šæ¬¡æ˜¯100ms
                 }
             }
             catch (System.Exception exp)
             {
-                WriteLog(POINTNAME + ")´íÎó£º" + exp.Message);
+                WriteLog(POINTNAME + ")é”™è¯¯ï¼š" + exp.Message);
             }
         }
 
         /// <summary>
-        /// Í£Ö¹ËùÓĞµÄÉè±¸Í¨Ñ¶Ïß³Ì
+        /// åœæ­¢æ‰€æœ‰çš„è®¾å¤‡é€šè®¯çº¿ç¨‹
         /// </summary>
         public void StopUse()
         {  
@@ -370,7 +370,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒµÎñµ½´ïÊ±ÔÚ±¾»ú²¥·ÅÉùÒôÌáÊ¾¼ÆÁ¿Ô±½øĞĞ²Ù×÷
+        /// è®¡é‡ä¸šåŠ¡åˆ°è¾¾æ—¶åœ¨æœ¬æœºæ’­æ”¾å£°éŸ³æç¤ºè®¡é‡å‘˜è¿›è¡Œæ“ä½œ
         /// </summary>
         /// <param name="location"></param>
         public void PlaySound(string location)
@@ -387,14 +387,14 @@ namespace YGJZJL.Bar
 
 
         /// <summary>
-        /// ÏòRtu·¢ËÍÃüÁî
+        /// å‘Rtuå‘é€å‘½ä»¤
         /// </summary>
-        /// <param name="device">Éè±¸µØÖ·£¬Í¨³£Ö¸RtuµÄÄ³Ò»Ä£¿é</param>
-        /// <param name="Command">ÃüÁî,1-¶Á¼Ä´æÆ÷Êı¾İ£¬5-ÉèÖÃÏßÈ¦£¨¿ª¹Ø£©×´Ì¬</param>
-        /// <param name="AddrH">µØÖ·Æ«ÒÆ¸ß8Î»</param>
-        /// <param name="AddrL">µØÖ·Æ«ÒÆµÍ8Î»</param>
-        /// <param name="DevH">ĞèÒªµÄÊı¾İ¸ß8Î»</param>
-        /// <param name="DevL">ĞèÒªµÄ¸öÊıµÍ8Î»</param>
+        /// <param name="device">è®¾å¤‡åœ°å€ï¼Œé€šå¸¸æŒ‡Rtuçš„æŸä¸€æ¨¡å—</param>
+        /// <param name="Command">å‘½ä»¤,1-è¯»å¯„å­˜å™¨æ•°æ®ï¼Œ5-è®¾ç½®çº¿åœˆï¼ˆå¼€å…³ï¼‰çŠ¶æ€</param>
+        /// <param name="AddrH">åœ°å€åç§»é«˜8ä½</param>
+        /// <param name="AddrL">åœ°å€åç§»ä½8ä½</param>
+        /// <param name="DevH">éœ€è¦çš„æ•°æ®é«˜8ä½</param>
+        /// <param name="DevL">éœ€è¦çš„ä¸ªæ•°ä½8ä½</param>
         /// <returns></returns>
         public bool SendRtuCommand(byte device, byte Command, byte AddrH, byte AddrL, byte DevH, byte DevL)
         {
@@ -439,7 +439,7 @@ namespace YGJZJL.Bar
         #region Properties
 
         /// <summary>
-        /// ¼ÆÁ¿µãID
+        /// è®¡é‡ç‚¹ID
         /// </summary>
         public string POINTID
         {
@@ -455,7 +455,7 @@ namespace YGJZJL.Bar
 
 
         /// <summary>
-        /// ¼ÆÁ¿µãÃû³Æ
+        /// è®¡é‡ç‚¹åç§°
         /// </summary>
         public string POINTNAME
         {
@@ -470,7 +470,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿µãÀàĞÍ
+        /// è®¡é‡ç‚¹ç±»å‹
         /// </summary>
         public string POINTTYPE
         {
@@ -485,7 +485,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Ó²ÅÌÂ¼Ïñ»úIP
+        /// ç¡¬ç›˜å½•åƒæœºIP
         /// </summary>
         public string VIEDOIP
         {
@@ -500,7 +500,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Ó²ÅÌÂ¼Ïñ»ú¶Ë¿Ú
+        /// ç¡¬ç›˜å½•åƒæœºç«¯å£
         /// </summary>
         public string VIEDOPORT
         {
@@ -515,7 +515,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Ó²ÅÌÂ¼Ïñ»úÓÃ»§Ãû
+        /// ç¡¬ç›˜å½•åƒæœºç”¨æˆ·å
         /// </summary>
         public string VIEDOUSER
         {
@@ -530,7 +530,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Ó²ÅÌÂ¼Ïñ»ú·ÃÎÊÃÜÂë
+        /// ç¡¬ç›˜å½•åƒæœºè®¿é—®å¯†ç 
         /// </summary>
         public string VIEDOPWD
         {
@@ -545,7 +545,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±íÀàĞÍ
+        /// è®¡é‡ä»ªè¡¨ç±»å‹
         /// </summary>
         public string METERTYPE
         {
@@ -560,7 +560,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±í´®¿ÚÍ¨Ñ¶²ÎÊı£¬±ØĞëÊÇÒÔÏÂ¸ñÊ½£º´®¿ÚÃû,²¨ÌØÂÊ,Ğ£ÑéÎ»,Êı¾İÎ»,Í£Ö¹Î»£¬Èç£ºCOM9,9600,N,8,1»òCOM2,115200,E,7,1.5
+        /// è®¡é‡ä»ªè¡¨ä¸²å£é€šè®¯å‚æ•°ï¼Œå¿…é¡»æ˜¯ä»¥ä¸‹æ ¼å¼ï¼šä¸²å£å,æ³¢ç‰¹ç‡,æ ¡éªŒä½,æ•°æ®ä½,åœæ­¢ä½ï¼Œå¦‚ï¼šCOM9,9600,N,8,1æˆ–COM2,115200,E,7,1.5
         /// </summary>
         public string METERPARA
         {
@@ -575,7 +575,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±íÇ°Ò»´ÎÊı¾İ¶ÁÊıÖµ
+        /// è®¡é‡ä»ªè¡¨å‰ä¸€æ¬¡æ•°æ®è¯»æ•°å€¼
         /// </summary>
          public decimal MeterPreData
         {
@@ -590,7 +590,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±íÎÈ¶¨´ÎÊı
+        /// è®¡é‡ä»ªè¡¨ç¨³å®šæ¬¡æ•°
         /// </summary>
         public int MeterStabTimes
         {
@@ -605,7 +605,7 @@ namespace YGJZJL.Bar
         }       
 
         /// <summary>
-        /// MOXAÍø¹ØIPµØÖ·£¬¹ÜÀíÓÃ£¬¶Ô³ÌĞòÎŞÓ°Ïì
+        /// MOXAç½‘å…³IPåœ°å€ï¼Œç®¡ç†ç”¨ï¼Œå¯¹ç¨‹åºæ— å½±å“
         /// </summary>
         public string MOXAIP
         {
@@ -620,7 +620,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±íÊ¹ÓÃMOXAÍø¹Ø¶Ë¿Ú
+        /// è®¡é‡ä»ªè¡¨ä½¿ç”¨MOXAç½‘å…³ç«¯å£
         /// </summary>
         public string MOXAPORT
         {
@@ -635,7 +635,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Rtu IPµØÖ·
+        /// Rtu IPåœ°å€
         /// </summary>
         public string RTUIP
         {
@@ -650,7 +650,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// RtuÍ¨Ñ¶¶Ë¿Ú
+        /// Rtué€šè®¯ç«¯å£
         /// </summary>
         public string RTUPORT
         {
@@ -665,7 +665,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»úIPµØÖ·£¬¹ÜÀíÓÃ£¬¶Ô³ÌĞòÎŞÓ°Ïì
+        /// ç¥¨æ®æ‰“å°æœºIPåœ°å€ï¼Œç®¡ç†ç”¨ï¼Œå¯¹ç¨‹åºæ— å½±å“
         /// </summary>
         public string PRINTERIP
         {
@@ -680,7 +680,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»úÃû³Æ£¬´òÓ¡Ê±¸ù¾İÃû³Æµ÷ÓÃ¶ÔÓ¦µÄ´òÓ¡»ú
+        /// ç¥¨æ®æ‰“å°æœºåç§°ï¼Œæ‰“å°æ—¶æ ¹æ®åç§°è°ƒç”¨å¯¹åº”çš„æ‰“å°æœº
         /// </summary>
         public string PRINTERNAME
         {
@@ -695,7 +695,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»úÀàĞÍ´úÂë£¬´òÓ¡»ú»»Ö½Ê±»ñÈ¡×ÜµÄÖ½ÕÅÊı
+        /// ç¥¨æ®æ‰“å°æœºç±»å‹ä»£ç ï¼Œæ‰“å°æœºæ¢çº¸æ—¶è·å–æ€»çš„çº¸å¼ æ•°
         /// </summary>
         public string PRINTTYPECODE
         {
@@ -710,7 +710,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»úÊ£ÓàÖ½ÕÅÊı
+        /// ç¥¨æ®æ‰“å°æœºå‰©ä½™çº¸å¼ æ•°
         /// </summary>
         public int USEDPAPER
         {
@@ -725,7 +725,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»úÊ£ÓàÌ¼´øÊı
+        /// ç¥¨æ®æ‰“å°æœºå‰©ä½™ç¢³å¸¦æ•°
         /// </summary>
         public int USEDINK
         {
@@ -740,7 +740,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»ú×ÜÖ½Êı
+        /// ç¥¨æ®æ‰“å°æœºæ€»çº¸æ•°
         /// </summary>
         public int TOTALPAPAR
         {
@@ -755,7 +755,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Æ±¾İ´òÓ¡»ú×ÜÌ¼´øÊı
+        /// ç¥¨æ®æ‰“å°æœºæ€»ç¢³å¸¦æ•°
         /// </summary>
         public int TOTALINK
         {
@@ -770,7 +770,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿µã×´Ì¬£¬USE-ÕıÔÚ¼ÆÁ¿£¬IDLE-¿ÕÏĞ
+        /// è®¡é‡ç‚¹çŠ¶æ€ï¼ŒUSE-æ­£åœ¨è®¡é‡ï¼ŒIDLE-ç©ºé—²
         /// </summary>
         public string STATUS
         {
@@ -785,7 +785,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÔİÎ´Ê¹ÓÃ´ËÊôĞÔ
+        /// æš‚æœªä½¿ç”¨æ­¤å±æ€§
         /// </summary>
         public string ACCEPTTERMINAL
         {
@@ -800,7 +800,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// LEDÊ¹ÓÃMOXAÍø¹Ø¶Ë¿Ú£¬¹ÜÀíÓÃ£¬¶Ô³ÌĞòÎŞÓ°Ïì
+        /// LEDä½¿ç”¨MOXAç½‘å…³ç«¯å£ï¼Œç®¡ç†ç”¨ï¼Œå¯¹ç¨‹åºæ— å½±å“
         /// </summary>
         public string LEDPORT
         {
@@ -815,7 +815,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// LEDÍ¨Ñ¶²ÎÊı£¬ÓÃÓÚÈë¿â¼ÆÁ¿µã
+        /// LEDé€šè®¯å‚æ•°ï¼Œç”¨äºå…¥åº“è®¡é‡ç‚¹
         /// </summary>
         public string LEDPARA
         {
@@ -830,7 +830,7 @@ namespace YGJZJL.Bar
         }
         
         /// <summary>
-        /// LEDÀàĞÍ
+        /// LEDç±»å‹
         /// </summary>
         public string LEDTYPE
         {
@@ -845,7 +845,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¶Á¿¨Æ÷MOXA¿¨¶Ë¿Ú£¬¹ÜÀíÓÃ£¬¶Ô³ÌĞòÎŞÓ°Ïì
+        /// è¯»å¡å™¨MOXAå¡ç«¯å£ï¼Œç®¡ç†ç”¨ï¼Œå¯¹ç¨‹åºæ— å½±å“
         /// </summary>
         public string READERPORT
         {
@@ -860,7 +860,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¶Á¿¨Æ÷´®¿ÚÍ¨Ñ¶²ÎÊı£¬±ØĞëÊÇÒÔÏÂ¸ñÊ½£º´®¿ÚºÅ,²¨ÌØÂÊ¡£Èç£º9,9600»ò2,115200
+        /// è¯»å¡å™¨ä¸²å£é€šè®¯å‚æ•°ï¼Œå¿…é¡»æ˜¯ä»¥ä¸‹æ ¼å¼ï¼šä¸²å£å·,æ³¢ç‰¹ç‡ã€‚å¦‚ï¼š9,9600æˆ–2,115200
         /// </summary>
         public string READERPARA
         {
@@ -875,7 +875,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¶Á¿¨Æ÷ÀàĞÍ£¬¶ÔÓÚÃ÷»ªRF-35£¬Êı¾İ¿âÖĞÓ¦ÅäÖÆ³ÉRF35
+        /// è¯»å¡å™¨ç±»å‹ï¼Œå¯¹äºæ˜åRF-35ï¼Œæ•°æ®åº“ä¸­åº”é…åˆ¶æˆRF35
         /// </summary>
         public string READERTYPE
         {
@@ -890,7 +890,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Òº¾§ÆÁMOXA¶Ë¿Ú£¬¹ÜÀíÓÃ£¬¶Ô³ÌĞòÎŞÓ°Ïì
+        /// æ¶²æ™¶å±MOXAç«¯å£ï¼Œç®¡ç†ç”¨ï¼Œå¯¹ç¨‹åºæ— å½±å“
         /// </summary>
         public string DISPLAYPORT
         {
@@ -905,7 +905,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Òº¾§ÆÁ´®¿ÚÍ¨Ñ¶²ÎÊı£¬±ØĞëÊÇÒÔÏÂ¸ñÊ½£º´®¿ÚÃû,²¨ÌØÂÊ,Ğ£ÑéÎ»,Êı¾İÎ»,Í£Ö¹Î»£¬Èç£ºCOM9,9600,N,8,1»òCOM2,115200,E,7,1.5
+        /// æ¶²æ™¶å±ä¸²å£é€šè®¯å‚æ•°ï¼Œå¿…é¡»æ˜¯ä»¥ä¸‹æ ¼å¼ï¼šä¸²å£å,æ³¢ç‰¹ç‡,æ ¡éªŒä½,æ•°æ®ä½,åœæ­¢ä½ï¼Œå¦‚ï¼šCOM9,9600,N,8,1æˆ–COM2,115200,E,7,1.5
         /// </summary>
         public string DISPLAYPARA
         {
@@ -920,7 +920,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Òº¾§ÆÁÀàĞÍ£¬À¥¸ÖÏîÄ¿Ó¦ÎªEBN15
+        /// æ¶²æ™¶å±ç±»å‹ï¼Œæ˜†é’¢é¡¹ç›®åº”ä¸ºEBN15
         /// </summary>
         public string DISPLAYTYPE
         {
@@ -935,7 +935,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÁãµãÖµ£¬×÷ÎªÉÏ³ÆÅĞ¶Ï
+        /// é›¶ç‚¹å€¼ï¼Œä½œä¸ºä¸Šç§°åˆ¤æ–­
         /// </summary>
         public decimal ZEROVALUE
         {
@@ -950,7 +950,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñ²É¼¯¼ÆÁ¿ÒÇ±í
+        /// æ˜¯å¦é‡‡é›†è®¡é‡ä»ªè¡¨
         /// </summary>
         public bool UseMeter
         {
@@ -965,7 +965,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñÓĞ¶Á¿¨Æ÷
+        /// æ˜¯å¦æœ‰è¯»å¡å™¨
         /// </summary>
         public bool UseReader
         {
@@ -980,7 +980,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñÓĞÒº¾§ÆÁ
+        /// æ˜¯å¦æœ‰æ¶²æ™¶å±
         /// </summary>
         public bool UseDisplay
         {
@@ -995,7 +995,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñÓĞLED
+        /// æ˜¯å¦æœ‰LED
         /// </summary>
         public bool UseLED
         {
@@ -1010,7 +1010,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñÓĞRtu
+        /// æ˜¯å¦æœ‰Rtu
         /// </summary>
         public bool UseRtu
         {
@@ -1025,7 +1025,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±íÔ­Ê¼Í¨Ñ¶±¨ÎÄ
+        /// è®¡é‡ä»ªè¡¨åŸå§‹é€šè®¯æŠ¥æ–‡
         /// </summary>
         public string MeterData
         {
@@ -1040,7 +1040,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¼ÆÁ¿ÒÇ±íÖØÁ¿
+        /// è®¡é‡ä»ªè¡¨é‡é‡
         /// </summary>
         public decimal MeterValue
         {
@@ -1056,7 +1056,7 @@ namespace YGJZJL.Bar
 
 
         /// <summary>
-        /// ¶Á¿¨Æ÷GUID
+        /// è¯»å¡å™¨GUID
         /// </summary>
         public string ReaderGUID
         {
@@ -1071,7 +1071,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ³µÖ¤¿¨Öú¼ÇºÅ
+        /// è½¦è¯å¡åŠ©è®°å·
         /// </summary>
         public string CardNo
         {
@@ -1086,7 +1086,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// RtuÍ¨Ñ¶Ô­Ê¼±¨ÎÄ
+        /// Rtué€šè®¯åŸå§‹æŠ¥æ–‡
         /// </summary>
         public byte[] RtuData
         {
@@ -1101,7 +1101,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÔİÎ´Ê¹ÓÃ
+        /// æš‚æœªä½¿ç”¨
         /// </summary>
         public bool Distributed
         {
@@ -1116,7 +1116,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñ·ÖÅä
+        /// æ˜¯å¦åˆ†é…
         /// </summary>
         public bool Signed
         {
@@ -1131,7 +1131,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¶Á¿¨Æ÷¾ä±ú£¬¸¸¼¶¶ÔÏóÓÃÀ´·¢ËÍÃüÁî
+        /// è¯»å¡å™¨å¥æŸ„ï¼Œçˆ¶çº§å¯¹è±¡ç”¨æ¥å‘é€å‘½ä»¤
         /// </summary>
         public CoolDisplay Display
         {
@@ -1142,7 +1142,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// LED¾ä±ú£¬¸¸¼¶¶ÔÏóÓÃÀ´·¢ËÍÃüÁî
+        /// LEDå¥æŸ„ï¼Œçˆ¶çº§å¯¹è±¡ç”¨æ¥å‘é€å‘½ä»¤
         /// </summary>
         public CoolLed SendLED
         {
@@ -1153,7 +1153,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Ó²ÅÌÂ¼Ïñ»ú
+        /// ç¡¬ç›˜å½•åƒæœº
         /// </summary>
         public SDK_Com.HKDVR VideoRecord
         {
@@ -1168,7 +1168,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Ó²ÅÌÂ¼Ïñ»ú¾ä±ú£¬SDK_Login»ñÈ¡ºó¸³Öµ
+        /// ç¡¬ç›˜å½•åƒæœºå¥æŸ„ï¼ŒSDK_Loginè·å–åèµ‹å€¼
         /// </summary>
         public int VideoHandle
         {
@@ -1183,7 +1183,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Í¨µÀ1¾ä±ú
+        /// é€šé“1å¥æŸ„
         /// </summary>
         public int Channel1
         {
@@ -1198,7 +1198,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Í¨µÀ2¾ä±ú
+        /// é€šé“2å¥æŸ„
         /// </summary>
         public int Channel2
         {
@@ -1213,7 +1213,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Í¨µÀ3¾ä±ú
+        /// é€šé“3å¥æŸ„
         /// </summary>
         public int Channel3
         {
@@ -1228,7 +1228,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Í¨µÀ4¾ä±ú
+        /// é€šé“4å¥æŸ„
         /// </summary>
         public int Channel4
         {
@@ -1243,7 +1243,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Í¨µÀ5¾ä±ú
+        /// é€šé“5å¥æŸ„
         /// </summary>
         public int Channel5
         {
@@ -1258,7 +1258,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// Í¨µÀ6¾ä±ú
+        /// é€šé“6å¥æŸ„
         /// </summary>
         public int Channel6
         {
@@ -1273,7 +1273,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ÊÇ·ñÕıÔÚ¶Ô½²
+        /// æ˜¯å¦æ­£åœ¨å¯¹è®²
         /// </summary>
         public bool Talk
         {
@@ -1288,7 +1288,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¶Ô½²¾ä±ú
+        /// å¯¹è®²å¥æŸ„
         /// </summary>
         public int TalkID
         {
@@ -1303,7 +1303,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ¿ÉÊ¹ÓÃµÄÒôÆµÊıÁ¿£¬
+        /// å¯ä½¿ç”¨çš„éŸ³é¢‘æ•°é‡ï¼Œ
         /// </summary>
         public int AUDIONUM
         {
@@ -1318,7 +1318,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// ±£´æ±êÖ¾
+        /// ä¿å­˜æ ‡å¿—
         /// </summary>
         public bool Saved
         {
@@ -1333,7 +1333,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// RTU´óÌüĞÅºÅµÆÇ°´Î×´Ì¬
+        /// RTUå¤§å…ä¿¡å·ç¯å‰æ¬¡çŠ¶æ€
         /// </summary>
         public bool PreState
         {
@@ -1348,7 +1348,7 @@ namespace YGJZJL.Bar
         }
 
         /// <summary>
-        /// RTU´óÌüĞÅºÅµÆÇ°×´Ì¬
+        /// RTUå¤§å…ä¿¡å·ç¯å‰çŠ¶æ€
         /// </summary>
         public bool CurState
         {

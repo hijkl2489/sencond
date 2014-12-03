@@ -14,7 +14,7 @@ namespace YGJZJL.Bar
         #region private member variable
 
         //数据表JL_POINTINFO字段映射
-        private string m_POINTID;//333333333计量点编码
+        private string m_POINTID;//333333333ttttttttt计量点编码
         private string m_POINTNAME;//计量点名称
         private string m_POINTTYPE;//计量点称重类型
 
